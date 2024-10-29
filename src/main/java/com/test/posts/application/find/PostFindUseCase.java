@@ -15,10 +15,10 @@ public class PostFindUseCase {
     public List<PostQuery> findAllPosts(){
         return this.postQueryRepository.findAllPosts();
     }
-    public PostQuery findById(Integer id){
+   /* public PostQuery findById(Integer id){
         return this.postQueryRepository.findById(id).orElseThrow();
     }
     public List<PostQuery> findAllPostsByUserId(Integer userId){
         return this.postQueryRepository.searchBy(Map.of("userId",String.valueOf(userId)));
-    }
+    }*/
 }

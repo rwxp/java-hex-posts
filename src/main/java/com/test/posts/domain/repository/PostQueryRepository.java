@@ -9,7 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface PostQueryRepository {
-    Optional<PostQuery> findById(int id);
-    List<PostQuery> searchBy(Map<String, String> params);
     List<PostQuery> findAllPosts();
 }
